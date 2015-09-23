@@ -1,6 +1,6 @@
 {
   "name": "c4",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": ":fire: a javascript engine burster",
   "main": "lib/c4.js",
   "dependencies": {
