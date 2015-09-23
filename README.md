@@ -14,16 +14,10 @@ npm i --save c4
 In case you catch an error
 
 ```
-var c4 = require( 'c4' )
+var C4 = require( 'c4' )
 
-{
-    before: function ( err, next ) {
-        report(function () {
-            document.body.innerHtml = "i know what you did boy... reported!!"
-            next()
-        })
-    }
-    // Other options
+var bomb = new C4({
+    delay: 20 // ms
 })
 
 function someMethod ( variable ) {
@@ -34,13 +28,20 @@ function someMethod ( variable ) {
     }catch(err) {
         report(function () {
             document.body.innerHtml = "i know what you did boy... reported!!"
-            c4.explode()
+            bomb.explode()
         })
     }
 }
 
 ```
 
-### API
+## Options
 
-#### `c4.explode` - blocks the browser/node's js engine
+```
+{
+    wipeGlobal: true,
+    wipeDocument: true,
+    wipeRequire: true,
+    spark: 300,
+}
+```
