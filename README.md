@@ -5,7 +5,7 @@ Burst [nodejs] or a [browser] engine in case an hacking error was detected.
 
 ## Installation
 
-```
+```bash
 npm i --save c4
 ```
 
@@ -13,7 +13,7 @@ npm i --save c4
 
 In case you catch an error
 
-```
+```js
 var C4 = require( 'c4' )
 
 var bomb = new C4({
@@ -37,7 +37,7 @@ function someMethod ( variable ) {
 
 ## Options
 
-```
+```js
 {
     wipeGlobal: true,
     wipeDocument: true,
