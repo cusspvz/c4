@@ -1,0 +1,35 @@
+{
+  "name": "c4",
+  "version": "0.0.1",
+  "description": ":fire: a javascript engine burster",
+  "main": "lib/c4.js",
+  "dependencies": {
+    "object.assign": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cusspvz/c4.git"
+  },
+  "keywords": [
+    "c4",
+    "explosion",
+    "explode",
+    "js",
+    "engine",
+    "burst",
+    "burster",
+    "forever",
+    "loop",
+    "heap"
+  ],
+  "author": "José Moreira <jose.moreira@findhit.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/cusspvz/c4/issues"
+  },
+  "homepage": "https://github.com/cusspvz/c4#readme"
+}
