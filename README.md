@@ -42,6 +42,6 @@ function someMethod ( variable ) {
     wipeGlobal: true,
     wipeDocument: true,
     wipeRequire: true,
-    spark: 300,
+    delay: 300,
 }
 ```
